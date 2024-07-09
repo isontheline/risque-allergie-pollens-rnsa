@@ -1,6 +1,6 @@
 {
   "name": "Risque Allergie Pollens RNSA",
-  "version": "0.1",
+  "version": "0.2",
   "slug": "raprnsa",
   "description": "Simple Home Assistant add-on to retrieve RNSA Pollens Allergy data",
   "arch": ["armhf", "armv7", "aarch64"],
