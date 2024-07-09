@@ -1,0 +1,20 @@
+{
+  "name": "Risque Allergie Pollens RNSA",
+  "version": "0.1",
+  "slug": "raprnsa",
+  "description": "Simple Home Assistant add-on to retrieve RNSA Pollens Allergy data",
+  "arch": ["armhf", "armv7", "aarch64"],
+  "hassio_api": false,
+  "host_network": false,
+  "homeassistant_api": true,
+  "startup": "application",
+  "boot": "auto",
+  "auth_api": true,
+  "url": "https://github.com/isontheline/risque-allergie-pollens-rnsa",
+  "options": {
+    "County": "87"
+  },
+  "schema": {
+    "County": "int"
+  }
+}
