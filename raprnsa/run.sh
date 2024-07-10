@@ -12,7 +12,7 @@ until false; do
     -H "Content-Type: application/json" \
     -H "Authorization: Bearer $HASSIO_TOKEN" \
     -A "$USER_AGENT" \
-    -d '{"state": "'$RISK_LEVEL'", "attributes":  {"device_class": "AQI", "state_class": "measurement", "icon": "mdi:flower-pollen", "friendly_name": "Risk Level"}}' \
+    -d '{"state": "'$RISK_LEVEL'", "attributes":  {"device_class": "AQI", "state_class": "measurement", "icon": "mdi:flower-pollen", "friendly_name": "Pollens Risk Level"}}' \
     http://hassio/homeassistant/api/states/weather.raprnsa_county_$COUNTY \
     2>/dev/null
   echo ""
