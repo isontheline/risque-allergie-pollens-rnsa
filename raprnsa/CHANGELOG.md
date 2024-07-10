@@ -1,5 +1,6 @@
 | Version | Change | Date |
 | --- | --- | --- |
+| **0.8** | Using AQI for device class | 2024-07-10 |
 | **0.7** | Using dedicated County data entrypoints | 2024-07-10 |
 | **0.6** | Adding icon and logo | 2024-07-10 |
 | **0.5** | Upgrading base image from 3.10 to 3.20 | 2024-07-10 |
