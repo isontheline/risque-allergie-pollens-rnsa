@@ -9,7 +9,7 @@ profile rpitempmon flags=(attach_disconnected,mediate_deleted) {
   capability setgid,
   capability setuid,
 
-  # S6-Overlay
+  # S6-Overlay : https://developers.home-assistant.io/blog/2022/05/12/s6-overlay-base-images/
   /bin/** ix,
   /usr/bin/** ix,
   /usr/lib/bashio/** ix,
@@ -25,11 +25,9 @@ profile rpitempmon flags=(attach_disconnected,mediate_deleted) {
   # Data access
   /data/** rw,
 
-
   # suppress ptrace denials when using 'docker ps' or using 'ps' inside a container
   ptrace (trace,read) peer=docker-default,
  
   # docker daemon confinement requires explict allow rule for signal
   signal (receive) set=(kill,term) peer=/usr/bin/docker,
-
 }
