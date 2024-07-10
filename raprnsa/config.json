@@ -4,6 +4,7 @@
   "slug": "raprnsa",
   "description": "Simple Home Assistant add-on to retrieve RNSA Pollens Allergy data",
   "arch": ["armhf", "armv7", "aarch64", "i386", "amd64"],
+  "init": false,
   "hassio_api": false,
   "host_network": false,
   "homeassistant_api": true,
