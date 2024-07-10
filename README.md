@@ -1,7 +1,5 @@
 # Risque Allergie Pollens RNSA
-Simple Home Assistant add-on to retrieve RNSA Pollens Allergy data
-
-This is a simple [Home Assistant](https://home-assistant.io) add-on that shows pollen levels in your County.
+Simple [Home Assistant](https://home-assistant.io) add-on that shows pollen levels in your County.
 
 All data are provided by ['Réseau National de Surveillance Aérobiologique' (R.N.S.A.)](https://pollens.fr)
 

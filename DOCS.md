@@ -23,3 +23,7 @@ Add this GitHub repository to your Home Assistant instance:
 - Jump to the Configuration section
 - Choose your County
 - Start the Add-on
+
+## Data Source
+* https://www.pollens.fr/risks/thea/counties/{{ COUNTY_ID }}
+* https://pollens.fr/load_vigilance_map

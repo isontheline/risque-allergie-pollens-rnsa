@@ -1,0 +1,8 @@
+{
+    "name": "Risque Allergie Pollens RNSA",
+    "country": "FR",
+    "render_readme": true,
+    "domains": [
+        "weather"
+    ]
+}
